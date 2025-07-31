@@ -1,0 +1,41 @@
+.box1
+{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border-style: solid;
+}
+.box2
+{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   border-style: solid;
+   border-radius: 50%;
+}
+header{
+    text-align: center;
+    color: aliceblue;
+    background-color: greenyellow;
+}
+#one
+{
+    justify-content: center;
+    text-align: center;
+    color: aquamarine;
+}
+#wo
+{
+    
+}
+#qw
+{
+    font-weight: bolder;
+    font-size: 30px;
+    color:black;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}

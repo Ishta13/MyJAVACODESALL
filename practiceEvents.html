@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function handleonfocus(x)
+        {
+            x.style.color = "red";
+            x.style.backgroundColor = "blue";
+        }
+        function handleonblur(x)
+        {
+            x.style.color = "blue";
+            x.style.backgroundColor = "red";
+        }
+        function handleonclick(x)
+        {
+            x.style.color = "pink";
+            x.style.backgroundColor = "blue";
+        }
+        function handleondblclick(x)
+        {
+            x.style.color = "blue";
+            x.style.backgroundColor = "pink";
+        }
+        function handleonload(x)
+        {
+            document.body.style.backgroundColor = "pink";
+            alert("reloading page");
+        }
+        function handleonunload(x)
+        {
+            document.body.style.backgroundColor = "yellow";
+            alert("exiting the page");
+        }
+    </script>
+</head>
+<body onload="handleonload()" onunload="handleonupload()" >
+    <input type="text" onfocus="handleonfocus(this)" onblur=" handleonblur(this)"/>
+    <input type="submit" onclick="handleonclick(this)" ondblclick="handleondblclick(this)"/>
+    <button onclick="handleonclick(this)"> while clicking</button> 
+    <input type="text" onmousedown="handleondblclick(this)" onmouseover=" handleonblur(this)"/>
+
+</body>
+</html>
