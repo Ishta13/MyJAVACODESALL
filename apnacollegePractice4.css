@@ -1,0 +1,74 @@
+.qwerty
+{
+    height: 150px;
+    background-color: pink;
+    color: yellow;
+    width: 150px;
+    border-style: dashed;
+    border-color: aqua;
+    /*border-left: 0cm; /* to remove border*/
+    border-radius: 25%;
+    text-align: center;
+    padding-left: 25px;
+}
+.qwertwo
+{
+    height: 150px;
+    background-color: pink;
+    color: yellow;
+    width: 150px;
+    border-style: dashed;
+    border-color: aqua;
+    /*border-left: 0cm; /* to remove border*/
+    border-radius: 25%;
+    text-align: center;
+    padding: 25px 25px 25px 25px;
+}
+.qwertythree
+{
+    height: 150px;
+    background-color: pink;
+    color: yellow;
+    width: 150px;
+    border-style: dashed;
+    border-color: aqua;
+    /*border-left: 0cm; /* to remove border*/
+    border-radius: 25%;
+    text-align: center;
+    padding-right: 25px;
+}
+#mine
+{
+    background-color: yellow;
+    width: 25px;
+    border-style: dashed;
+    border-radius: 50%;
+    color: yellow;
+    
+
+}
+#my
+{
+    background-color: red;
+    width: 25px;
+    border-style: dashed;
+    border-radius: 50%;
+    color: red;
+    
+
+}
+#myself
+{
+    background-color: green;
+    width: 25px;
+    border-style: dashed;
+    border-radius: 50%;
+    color: green;
+    
+}
+.traffic
+{
+    background-color: black;
+    height: 110px;
+    width: 33px;
+}

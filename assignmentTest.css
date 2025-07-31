@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<style>
+    *{
+        margin:0px;
+        padding:0px;
+    }
+    header h1{
+    background-color:rgb(62, 223, 62);
+    text-align:center;
+}
+.main img{
+    background-color:rgb(164, 161, 157);
+  margin:90px;
+  
+}
+header nav ul{
+    background-color:black;
+    text-align:center;
+}
+header nav ul li{
+    background-color:black;
+    color:white;
+    display:inline;
+    margin:10px;
+    padding:0px;
+    text-align:center;
+  
+ 
+
+
+}
+.main p{
+    text-align:center;
+}
+footer{
+    text-align:center;
+    background-color:black;
+    color:white;
+}
+</style>
+<body>
+    <header>
+        <h1>Welcome to My website</h1>
+        <nav>
+            <ul type="none">
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main">
+        <img src="image.png" height="400" width="400">
+        <p>this is the main content content has page with images it has paragraph ansd all.</p>
+        <ul style="text-align:center" type="disc">
+            <li>list 1</li>
+            <li>list 2</li>
+            <li>list 3</li>
+        </ul>
+    </div>
+    <footer>
+        <p>contact to xyzshjgd@gmail.com</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,36 @@
+
+img{
+    border-style:groove;
+    border-radius: 50%;
+    border-width: 13px;
+    height: 150px;
+    
+}
+h1{
+    height: 31px;
+    width:200px;
+    background-color: blue;
+    border-color: yellowgreen;
+    border-width: 15px;
+    border-style: double;
+    text-align: center; /*the text will align within borders so at center it'll align*/
+    font-style: italic;
+    font-weight: bolder;
+    border-radius:50px
+
+}
+#cl
+{
+    height: 200px;
+    background-color: aqua;
+    width: 230px;
+    border-style: dotted;
+    border-width: 7px;
+    border-color:brown;
+    text-align: center;
+    
+}
+.aline
+{
+    align-items: center; /* align image*/ /* not working*/
+}
