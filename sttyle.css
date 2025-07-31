@@ -1,0 +1,20 @@
+.ab, .abc, .abcd {
+    display: inline-block; /* Ensure they are treated as inline blocks */
+    height: 160px;
+    border-width: 2px;
+    border-style: solid;
+    width: 200px;
+    vertical-align: top; /* Aligns the top of the boxes */
+    margin-right: 10px; /* Optional: Add spacing between blocks */
+}
+
+.qqq {
+    background-color: green;
+    text-align: center;
+    height: 80px;
+}
+
+.aqw {
+    display: inline-block;
+    /* Remove display: inline-block here, the children are already inline-block */
+}

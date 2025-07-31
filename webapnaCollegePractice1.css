@@ -1,0 +1,48 @@
+p{
+    background-color: red;
+}
+body
+{
+    color: pink;
+}
+body{
+    background-color: aqua;
+}
+button{
+    color:brown;
+    background-color: pink;
+}
+h1{
+    color: purple;
+    text-decoration: underline;
+}
+h3{
+    background-color: black;
+    color: pink;                 
+    text-decoration: overline;
+}
+p{
+    text-align:center;
+}
+ p{
+    text-align:right; //agr ek me p settings change kra toh saare para change ho jaenge 
+ }
+#one{   //given specific name to h1 to create changes only in this heading
+    font-weight: normal;  //(#) select prticluar id only used for fontweight
+   
+}
+body
+{
+    font-weight: bolder;
+}
+.rahul  //selects prticular class
+{
+    font-size: 22px;
+    font-weight: bold;
+}
+#ishta
+{
+    line-height: 233px;
+    color:blue;
+    background-color: yellow;
+}
