@@ -1,0 +1,76 @@
+//Implementation of stack data structure using array
+#include<stdio.h>
+#include<stdlib.h>
+#define SIZE 10 // Define the size of the stack
+
+void push(int item);
+void pop();
+void display();
+void peek();
+int stack[SIZE];// Define the size of the stack
+int top = -1; // Initialize top of stack to -1
+
+
+void main(){
+    int value,choice;
+    while(1){
+        printf("\n*******MENU********");
+        printf("\n1.Push\n2.Pop\n3.Display()\n4.Exit\n");
+        printf("Enter your choice\n");
+        scanf("%d",&choice);
+        switch(choice){
+            case 1: printf("Enter the value to be inserted\n");
+                    scanf("%d",&value);
+
+                    push(value);// Call push function
+                    break;
+            case 2: pop();// Call pop function
+                    break;
+
+            case 3: display();// Call display function
+                    break;
+
+            case 4: exit(0); // Exit the program
+
+            default: printf("Wrong selection\n");                        
+        }
+    }
+}
+
+//Function definition to push operation
+void push(int item){
+    if(top == (SIZE-1)){
+        printf("Stack is full\n"); // Stack overflow condition
+    }
+    else{
+        top++;
+        stack[top] = item; // Insert item into stack
+        printf("The element pushed is: %d\n",stack[top]);
+
+    }
+}
+
+//Function definition of pop operation
+void pop(){
+    if(top == -1){
+        printf("Stack is empty cannot pop ant elements\n");// Stack underflow condition
+
+    }
+    else{
+        printf("The element that is popped is %d\n",stack[top]);
+        top--;// Remove item from stack
+    }
+
+}
+
+//Function definition of display operation
+void display(){
+    if(top == -1){
+        printf("The Stack is empty cannot display the elements\n");
+    }
+    else{
+        for(int i=top;i>=0;i--){
+            printf("%d\n",stack[i]);// Print each element
+        }
+    }
+}
