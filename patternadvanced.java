@@ -1,0 +1,50 @@
+public class patternadvanced {
+    public static void rectanglepattern(int totlrow, int totlcol)
+    {
+        for(int i=1;i<=totlrow;i++)
+        {
+            for(int j=1;j<=totlcol;j++)
+            {
+                if(i==1||i==totlrow|| j==1||j==totlcol)
+                {
+                    System.out.print("*");
+                }
+                else
+                {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    // inverted and rotated triangle
+    public static void invertedandrotatedtriangle(int n)
+    {
+        for(int i=1;i<=n;i++)
+        {
+            for(int j=1;j<=n-i;j++)
+            { 
+                System.out.print(" ");
+
+            }
+
+                for(int k=1;k<=i;k++)             // can use for(int j=1;j<=i;j++) sirf block ke andr hi vo particular int use hota toh same or diff use kr skteyy
+                {
+                    System.out.print("*");
+                }
+
+            System.out.println();
+            
+        }
+    }
+    public static void main(String[] args) {
+        rectanglepattern(6,4);
+        System.out.println();
+        invertedandrotatedtriangle(6);
+
+       
+    }
+    
+    
+}

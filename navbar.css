@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+
+    
+}
+#ab
+{
+    color: yellow;
+    font-size: 25px;
+}
+.nav
+{
+    background-color: black;
+    height: 60px;
+}
+button{
+    background-color: goldenrod;
+}
+a{
+    margin-right: 200px;
+}
